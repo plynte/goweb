@@ -1,6 +1,6 @@
 package goweb
 
-import "json-iterator/go"
+import "github.com/json-iterator/go"
 
 type API interface {
 	Unmarshal([]byte, interface{}) error
